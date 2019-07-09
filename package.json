@@ -22,7 +22,7 @@
   "dependencies": {
     "@nestjs/common": "^6.4.1",
     "@nestjs/core": "^6.4.1",
-    "@nestjs/platform-express": "^6.4.1", 
+    "@nestjs/platform-express": "^6.4.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^2.6.3",
     "rxjs": "^6.5.2"
@@ -31,15 +31,21 @@
     "@nestjs/testing": "^6.4.1",
     "@types/jest": "^24.0.15",
     "@types/node": "^12.6.1",
+    "@types/supertest": "^2.0.8",
     "jest": "^24.8.0",
     "nodemon": "^1.19.1",
+    "supertest": "^4.0.2",
     "ts-jest": "24.0.2",
     "ts-node": "8.3.0",
     "tslint": "5.18.0",
     "typescript": "3.5.3"
   },
   "jest": {
-    "moduleFileExtensions": ["js", "json", "ts"],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
     "rootDir": "src",
     "testRegex": ".spec.ts$",
     "transform": {
